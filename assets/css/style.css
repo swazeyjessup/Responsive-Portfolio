@@ -215,3 +215,37 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+ /* Media Queries  */
+
+ @media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+    
+} 
+
+nav {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+}   
+
+#main-container {
+  padding-top: 0;
+}
+
+#logo {
+ width: 100%;
+}
+.work:nth-child(even) {
+  margin-right: 40px;
+
+  
+}
+  @media screen and (max-width: 768px) {
+.container{
+  width: 100%;
+}
+
+  @media screen and (max-width: 980px) {
+  
